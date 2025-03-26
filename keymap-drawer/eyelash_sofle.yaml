@@ -105,7 +105,7 @@ layers:
   - '3'
   - '4'
   - Sft+8
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&new_macronomal'
   - A
   - '&new_macromenu'
   - X
@@ -217,9 +217,9 @@ layers:
   - T
   - {t: '$$mdi:transfer$$', type: trans}
   - '6'
-  - Sft+$$mdi:backspace-reverse-outline$$
-  - Y
+  - '&new_macrogomdelete'
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
