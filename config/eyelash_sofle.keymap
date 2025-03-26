@@ -97,7 +97,7 @@
 &trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp LS(NUMBER_2)
 &kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4   &kp LS(NUMBER_8)
 &new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp LS(NUMBER_3)  &kp LS(NUMBER_5)  &kp LS(NUMBER_7)      &kp LS(NUMBER_1)       &kp LS(SLASH)  &kp LS(NUMBER_6)
-&trans           &trans           &trans             &tog 3              &trans               &tog 4           &kp ENTER        &trans            &trans            &trans                &trans                 &trans
+&trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans            &trans            &trans                &trans                 &trans
             >;
 
             display-name = "layer1";
@@ -110,7 +110,7 @@
 &kp DOWN_ARROW   &kp Y         &kp U         &kp I         &kp O         &kp P           &kp DOWN_ARROW   &kp F5   &kp F6  &kp F7  &kp F8  &kp F9           &kp F12
 &kp LEFT_ARROW   &kp H         &kp J         &kp K         &kp L         &kp MINUS       &kp LEFT_ARROW   &kp F10  &kp F1  &kp F2  &kp F3  &kp F4           &kp F11
 &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH       &kp RIGHT_ARROW  &trans   &trans  &trans  &trans  &trans           &trans
-&trans           &trans        &trans        &trans        &tog 3        &tog 4          &kp ENTER        &trans   &trans  &trans  &trans  &trans
+&trans           &trans        &trans        &trans        &to 3         &to 4           &kp ENTER        &trans   &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
