@@ -59,6 +59,20 @@
             bindings = <&kp F &kp NUMBER_2>;
             label = "NEW_MACRORED";
         };
+
+        new_macronomal: new_macronomal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp NUMBER_0>;
+            label = "NEW_MACRONOMAL";
+        };
+
+        new_macrogomdelete: new_macrogomdelete {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(DELETE) &kp Y>;
+            label = "NEW_MACROGOMDELETE";
+        };
     };
 
     keymap {
@@ -79,11 +93,11 @@
 
         layer_1 {
             bindings = <
-&kp LC(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LS(N9)        &kp LS(NUMBER_0)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(EQUAL)  &kt EQUAL
-&trans     &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp LS(NUMBER_2)
-&kp F5     &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4   &kp LS(NUMBER_8)
-&trans     &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp LS(NUMBER_3)  &kp LS(NUMBER_5)  &kp LS(NUMBER_7)      &kp LS(NUMBER_1)       &kp LS(SLASH)  &kp LS(NUMBER_6)
-&trans     &trans           &trans             &tog 3              &trans               &tog 4           &kp ENTER        &trans            &trans            &trans                &trans                 &trans
+&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LS(N9)        &kp LS(NUMBER_0)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(EQUAL)  &kt EQUAL
+&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp LS(NUMBER_2)
+&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4   &kp LS(NUMBER_8)
+&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp LS(NUMBER_3)  &kp LS(NUMBER_5)  &kp LS(NUMBER_7)      &kp LS(NUMBER_1)       &kp LS(SLASH)  &kp LS(NUMBER_6)
+&trans           &trans           &trans             &tog 3              &trans               &tog 4           &kp ENTER        &trans            &trans            &trans                &trans                 &trans
             >;
 
             display-name = "layer1";
@@ -104,11 +118,11 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans              &trans              &trans               &trans               &trans  &trans
-&kp TAB           &kp Q         &kp W           &kp E         &kp R         &kp T           &trans  &kp NUMBER_6        &kp LS(DELETE)      &kp Y                &kp DELETE           &trans  &trans
-&kp LEFT_SHIFT    &kp A         &kp S           &kp D         &kp F         &kp G           &trans  &kp PAGE_UP         &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp PAGE_DOWN        &trans  &trans
-&kp LEFT_CONTROL  &kp Z         &kp X           &kp C         &kp V         &kp B           &trans  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &trans
-&tog 0            &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans  &kp ENTER           &kp SPACE           &kp LA(F4)           &kp X                &kp C
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans              &trans               &trans               &trans               &trans  &trans
+&kp TAB           &kp Q         &kp W           &kp E         &kp R         &kp T           &trans  &kp NUMBER_6        &new_macrogomdelete  &kp DELETE           &trans               &trans  &trans
+&kp LEFT_SHIFT    &kp A         &kp S           &kp D         &kp F         &kp G           &trans  &kp PAGE_UP         &kp LEFT_ARROW       &kp RIGHT_ARROW      &kp PAGE_DOWN        &trans  &trans
+&kp LEFT_CONTROL  &kp Z         &kp X           &kp C         &kp V         &kp B           &trans  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &trans
+&to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans  &kp ENTER           &kp SPACE            &kp LA(F4)           &kp X                &kp C
             >;
         };
 
@@ -118,7 +132,7 @@
 &trans       &trans          &trans  &trans  &trans  &trans       &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
 &trans       &trans          &trans  &trans  &trans  &trans       &out OUT_USB  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans
 &bootloader  &trans          &trans  &trans  &trans  &trans       &out OUT_BLE  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &trans
-&tog 0       &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
+&to 0        &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
             >;
         };
     };
