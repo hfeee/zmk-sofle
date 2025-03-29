@@ -76,7 +76,7 @@ layers:
   - Sft+8
   - Sft+9
   - {t: 'Sft+]', s: 'Sft+}'}
-  - '}'
+  - {t: Sft+\, s: Sft+|}
   - ':'
   - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -91,7 +91,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '*'
+  - {t: Sft+', s: Sft+"}
   - F5
   - Ctl+Z
   - Ctl+Sft+N
@@ -104,7 +104,7 @@ layers:
   - '2'
   - '3'
   - '4'
-  - ':'
+  - {t: '''', s: '"'}
   - '&new_macronomal'
   - A
   - '&new_macromenu'
@@ -142,7 +142,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PRINTSCREEN
+  - Gui+PRINTSCREEN
   - HOME
   - $$mdi:arrow-down-bold$$
   - Y
@@ -274,12 +274,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
-  - '#'
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - <
-  - '>'
+  - _
+  - '@'
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - +
+  - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_DEC'
@@ -288,10 +288,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - '0'
+  - '|'
+  - {t: ;, s: ':'}
   - '"'
-  - '~'
-  - {t: '''', s: '"'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - RGB EFR
