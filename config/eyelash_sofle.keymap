@@ -93,11 +93,11 @@
 
         layer_1 {
             bindings = <
-&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS      &kt LS(MINUS)
-&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5          &kp NUMBER_6           &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9  &kp ASTERISK
-&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0          &kp NUMBER_1           &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp COLON
-&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp HASH              &kp PERCENT            &kp AMPERSAND   &kp EXCLAMATION  &kp QUESTION  &kp CARET
-&trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans                &trans                 &trans          &trans           &trans
+&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACE  &kp COLON     &kp LS(MINUS)
+&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9  &kp ASTERISK
+&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3     &kp NUMBER_4  &kp COLON
+&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION  &kp QUESTION  &kp TILDE
+&trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans            &trans            &trans                 &trans           &trans
             >;
 
             display-name = "layer1";
@@ -128,11 +128,11 @@
 
         layer_4 {
             bindings = <
-&sys_reset   &trans          &trans  &trans  &trans  &soft_off    &trans        &trans           &trans           &trans           &trans           &trans           &trans
-&trans       &trans          &trans  &trans  &trans  &trans       &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
-&trans       &trans          &trans  &trans  &trans  &trans       &out OUT_USB  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans
-&bootloader  &trans          &trans  &trans  &trans  &trans       &out OUT_BLE  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &trans
-&to 0        &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
+&sys_reset     &trans           &trans             &trans            &trans          &soft_off           &trans        &trans           &trans           &trans           &trans           &trans           &trans
+&kp BACKSLASH  &kp NON_US_HASH  &kp SEMICOLON      &kp SINGLE_QUOTE  &kp LESS_THAN   &kp GREATER_THAN    &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
+&kp LSHIFT     &kp NUMBER_0     &kp DOUBLE_QUOTES  &kp TILDE2        &kp APOSTROPHE  &trans              &out OUT_USB  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans
+&bootloader    &trans           &trans             &trans            &trans          &trans              &out OUT_BLE  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &trans
+&to 0          &studio_unlock   &trans             &trans            &trans          &trans              &trans        &trans           &trans           &trans           &trans           &trans
             >;
         };
     };
