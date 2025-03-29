@@ -93,11 +93,11 @@
 
         layer_1 {
             bindings = <
-&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LS(N9)        &kp LS(NUMBER_0)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(EQUAL)  &kt EQUAL
-&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp LS(NUMBER_2)
-&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4   &kp LS(NUMBER_8)
-&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp LS(NUMBER_3)  &kp LS(NUMBER_5)  &kp LS(NUMBER_7)      &kp LS(NUMBER_1)       &kp LS(SLASH)  &kp LS(NUMBER_6)
-&trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans            &trans            &trans                &trans                 &trans
+&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS      &kt LS(MINUS)
+&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5          &kp NUMBER_6           &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9  &kp ASTERISK
+&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0          &kp NUMBER_1           &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp COLON
+&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp HASH              &kp PERCENT            &kp AMPERSAND   &kp EXCLAMATION  &kp QUESTION  &kp CARET
+&trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans                &trans                 &trans          &trans           &trans
             >;
 
             display-name = "layer1";
@@ -106,11 +106,11 @@
 
         layer_2 {
             bindings = <
-&kp UP_ARROW     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UP_ARROW     &trans   &trans  &trans  &trans  &kp PRINTSCREEN  &kp HOME
-&kp DOWN_ARROW   &kp Y         &kp U         &kp I         &kp O         &kp P           &kp DOWN_ARROW   &kp F5   &kp F6  &kp F7  &kp F8  &kp F9           &kp F12
-&kp LEFT_ARROW   &kp H         &kp J         &kp K         &kp L         &kp MINUS       &kp LEFT_ARROW   &kp F10  &kp F1  &kp F2  &kp F3  &kp F4           &kp F11
-&kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH       &kp RIGHT_ARROW  &trans   &trans  &trans  &trans  &trans           &kp END
-&trans           &trans        &trans        &trans        &to 3         &to 4           &kp ENTER        &trans   &trans  &trans  &trans  &trans
+&kp UP_ARROW     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UP_ARROW     &trans   &trans  &trans  &trans  &kp PRINTSCREEN     &kp HOME
+&kp DOWN_ARROW   &kp Y         &kp U         &kp I         &kp O         &kp P           &kp DOWN_ARROW   &kp F5   &kp F6  &kp F7  &kp F8  &kp F9              &kp F12
+&kp LEFT_ARROW   &kp H         &kp J         &kp K         &kp L         &kp MINUS       &kp LEFT_ARROW   &kp F10  &kp F1  &kp F2  &kp F3  &kp F4              &kp F11
+&kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH       &kp RIGHT_ARROW  &trans   &trans  &trans  &trans  &trans              &kp END
+&trans           &trans        &trans        &trans        &to 3         &to 4           &kp ENTER        &trans   &trans  &trans  &trans  &kp LC(LA(DELETE))
             >;
 
             sensor-bindings = <&scroll_encoder>;
