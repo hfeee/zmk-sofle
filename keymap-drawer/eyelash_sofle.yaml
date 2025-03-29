@@ -73,12 +73,12 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+Sft+T
   - $$mdi:arrow-up-bold$$
-  - {t: Sft+9, s: Sft+(}
-  - Sft+0
-  - {t: 'Sft+[', s: 'Sft+{'}
-  - {t: 'Sft+]', s: 'Sft+}'}
-  - {t: Sft+=, s: Sft++}
-  - {t: '=', h: toggle, s: +}
+  - (
+  - )
+  - '{'
+  - '}'
+  - +
+  - {t: Sft+-, h: toggle, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Y
   - F2
@@ -91,7 +91,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - Sft+2
+  - '*'
   - F5
   - Ctl+Z
   - Ctl+Sft+N
@@ -104,7 +104,7 @@ layers:
   - '2'
   - '3'
   - '4'
-  - Sft+8
+  - ':'
   - '&new_macronomal'
   - A
   - '&new_macromenu'
@@ -112,12 +112,12 @@ layers:
   - '&new_macroblue'
   - '&new_macrored'
   - $$mdi:arrow-right-bold$$
-  - Sft+3
-  - Sft+5
-  - Sft+7
-  - Sft+1
-  - {t: Sft+/, s: 'Sft+?'}
-  - Sft+6
+  - '#'
+  - '%'
+  - '&'
+  - '!'
+  - '?'
+  - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   '3':
   - $$mdi:keyboard-esc$$
   - '1'
