@@ -81,7 +81,7 @@
         layer0 {
             bindings = <
 &kp CAPSLOCK  &kp N1        &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0      &kp BACKSPACE
-&kp TAB       &kp Q         &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P       &kp AT_SIGN
+&kp TAB       &kp Q         &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P       &kp LEFT_BRACKET
 &kp LSHIFT    &kp A         &kp S      &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J          &kp K       &kp L      &kp MINUS   &kp SEMICOLON
 &kp LCTRL     &kp Z         &kp X      &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA   &kp DOT    &kp FSLH    &kp ENTER
 &kp C_MUTE    &kp LEFT_WIN  &kp SPACE  &mo 2   &mo 1   &kp ENTER    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp ESCAPE
@@ -96,7 +96,7 @@
 &kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp COLON     &kp LS(MINUS)
 &trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(SINGLE_QUOTE)
 &kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3       &kp NUMBER_4  &kp SINGLE_QUOTE
-&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION    &kp QUESTION  &kp TILDE
+&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION    &kp QUESTION  &kp EQUAL
 &trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans            &trans            &trans                 &trans             &trans
             >;
 
@@ -128,11 +128,11 @@
 
         layer_4 {
             bindings = <
-&sys_reset   &trans          &trans         &trans             &trans     &soft_off           &trans        &trans           &trans           &trans           &trans           &trans           &trans
-&kp UNDER    &kp AT          &kp MINUS      &kp EQUAL          &kp PLUS   &kp LEFT_BRACKET    &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
-&kp LSHIFT   &kp PIPE2       &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SLASH  &trans              &out OUT_USB  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans
-&bootloader  &trans          &trans         &trans             &trans     &trans              &out OUT_BLE  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &trans
-&to 0        &studio_unlock  &trans         &trans             &trans     &trans              &trans        &trans           &trans           &trans           &trans           &trans
+&sys_reset   &trans          &trans  &trans  &trans  &soft_off    &trans        &trans           &trans           &trans           &trans           &trans           &trans
+&trans       &trans          &trans  &trans  &trans  &trans       &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
+&trans       &trans          &trans  &trans  &trans  &trans       &out OUT_USB  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans
+&bootloader  &trans          &trans  &trans  &trans  &trans       &out OUT_BLE  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &trans
+&to 0        &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
             >;
         };
     };
