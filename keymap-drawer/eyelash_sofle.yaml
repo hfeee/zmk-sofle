@@ -73,12 +73,12 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+Sft+T
   - $$mdi:arrow-up-bold$$
-  - (
-  - )
-  - '{'
+  - Sft+8
+  - Sft+9
+  - {t: 'Sft+]', s: 'Sft+}'}
   - '}'
-  - +
-  - {t: Sft+-, h: toggle, s: Sft+_}
+  - ':'
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Y
   - F2
@@ -114,10 +114,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - '#'
   - '%'
-  - '&'
+  - Sft+6
   - '!'
   - '?'
-  - ^
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -274,12 +274,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
+  - '#'
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - <
+  - '>'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_DEC'
@@ -287,11 +287,11 @@ layers:
   - '&bl BL_INC'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - '0'
+  - '"'
+  - '~'
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - RGB EFR
