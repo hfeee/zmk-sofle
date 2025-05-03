@@ -80,11 +80,11 @@
 
         layer0 {
             bindings = <
-&kp CAPSLOCK  &kp N1        &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0      &kp BACKSPACE
-&kp TAB       &kp Q         &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P       &kp LEFT_BRACKET
-&kp LSHIFT    &kp A         &kp S      &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J          &kp K       &kp L      &kp MINUS   &kp SEMICOLON
-&kp LCTRL     &kp Z         &kp X      &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA   &kp DOT    &kp FSLH    &kp ENTER
-&kp C_MUTE    &kp LEFT_WIN  &kp SPACE  &mo 2   &mo 1   &kp ENTER    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp ESCAPE
+&kp CAPSLOCK  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0        &kp ESC
+&kp TAB       &kp Q      &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P         &kp LEFT_BRACKET
+&kp LSHIFT    &kp A      &kp S      &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J          &kp K       &kp L      &kp MINUS     &kp SEMICOLON
+&kp LCTRL     &kp Z      &kp X      &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp LEFT_ALT
+&kp C_MUTE    &kp SPACE  &kp SPACE  &mo 2   &mo 1   &kp ENTER    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp LEFT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -93,11 +93,11 @@
 
         layer_1 {
             bindings = <
-&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))    &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp COLON     &kp LS(MINUS)
-&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)        &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(SINGLE_QUOTE)
-&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE        &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3       &kp NUMBER_4  &kp SINGLE_QUOTE
-&new_macronomal  &kp A            &new_macromenu     &kp X               &new_macroblue       &new_macrored    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION    &kp QUESTION  &kp EQUAL
-&trans           &trans           &trans             &to 3               &trans               &to 4            &kp ENTER        &trans            &trans            &trans                 &trans             &trans
+&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp COLON     &kp LS(MINUS)
+&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(SINGLE_QUOTE)
+&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE         &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3       &kp NUMBER_4  &kp SINGLE_QUOTE
+&new_macronomal  &kp A            &kp LS(F10)        &kp W               &kp X                &new_macroblue    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION    &kp QUESTION  &kp EQUAL
+&to 5            &new_macrored    &trans             &to 3               &trans               &to 4             &kp ENTER        &trans            &trans            &trans                 &trans             &trans
             >;
 
             display-name = "layer1";
@@ -110,7 +110,7 @@
 &kp DOWN_ARROW   &kp Y         &kp U         &kp I         &kp O         &kp P           &kp DOWN_ARROW   &kp F5   &kp F6  &kp F7  &kp F8  &kp F9               &kp F12
 &kp LEFT_ARROW   &kp H         &kp J         &kp K         &kp L         &kp MINUS       &kp LEFT_ARROW   &kp F10  &kp F1  &kp F2  &kp F3  &kp F4               &kp F11
 &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH       &kp RIGHT_ARROW  &trans   &trans  &trans  &trans  &trans               &kp END
-&trans           &trans        &trans        &trans        &to 3         &to 4           &kp ENTER        &trans   &trans  &trans  &trans  &kp LC(LA(DELETE))
+&to 5            &trans        &trans        &trans        &to 3         &to 4           &kp ENTER        &trans   &trans  &trans  &trans  &kp LC(LA(DELETE))
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -118,15 +118,28 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans              &trans               &trans               &trans               &trans  &trans
-&kp TAB           &kp Q         &kp W           &kp E         &kp R         &kp T           &trans  &kp NUMBER_6        &new_macrogomdelete  &kp DELETE           &trans               &trans  &trans
-&kp LEFT_SHIFT    &kp A         &kp S           &kp D         &kp F         &kp G           &trans  &kp PAGE_UP         &kp LEFT_ARROW       &kp RIGHT_ARROW      &kp PAGE_DOWN        &trans  &trans
-&kp LEFT_CONTROL  &kp Z         &kp X           &kp C         &kp V         &kp B           &trans  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &trans
-&to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans  &kp ENTER           &kp SPACE            &kp LA(F4)           &kp X                &kp C
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&kp TAB           &kp Q         &kp W           &kp E         &kp R         &kp T           &trans  &kp Y         &kp U         &kp I         &kp O         &kp P         &trans
+&kp LEFT_SHIFT    &kp A         &kp S           &kp D         &kp F         &kp G           &trans  &kp H         &kp J         &kp K         &kp L         &trans        &trans
+&kp LEFT_CONTROL  &kp Z         &kp X           &kp C         &kp V         &kp B           &trans  &kp N         &kp M         &kp COMMA     &kp PERIOD    &trans        &trans
+&to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans  &kp ENTER     &kp SPACE     &mo 2         &trans        &trans
             >;
         };
 
         layer_4 {
+            display-name = "layer1";
+            bindings = <
+&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp NUMBER_6        &trans              &kp X                &kp C                &trans  &new_macrogomdelete
+&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
+&kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE         &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
+&new_macronomal  &kp A            &kp LS(F10)        &kp W               &kp X                &new_macroblue    &kp RIGHT_ARROW  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &new_macrogomdelete
+&to 0            &trans           &trans             &trans              &trans               &trans            &kp ENTER        &kp ENTER           &kp SPACE           &kp F4               &kp LS(F10)          &trans
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_5 {
             bindings = <
 &sys_reset   &trans          &trans  &trans  &trans  &soft_off    &trans        &trans           &trans           &trans           &trans           &trans           &trans
 &trans       &trans          &trans  &trans  &trans  &trans       &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
