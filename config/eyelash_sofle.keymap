@@ -78,7 +78,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        layer_0 {
             bindings = <
 &kp CAPSLOCK  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0        &kp ESC
 &kp TAB       &kp Q      &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P         &kp LEFT_BRACKET
@@ -127,7 +127,7 @@
         };
 
         layer_4 {
-            display-name = "layer1";
+            display-name = "layer4";
             bindings = <
 &kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp NUMBER_6        &trans              &kp X                &kp C                &trans  &new_macrogomdelete
 &trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
