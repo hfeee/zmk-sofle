@@ -96,6 +96,7 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
+            label = "layer_0";
         };
 
         layer_1 {
@@ -109,6 +110,7 @@
 
             display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
+            label = "layer_1";
         };
 
         layer_2 {
@@ -121,6 +123,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "layer_2";
         };
 
         layer_3 {
@@ -131,6 +134,8 @@
 &kp LEFT_CONTROL  &kp Z         &kp X           &kp C         &kp V         &kp B           &trans  &kp N         &kp M         &kp COMMA     &kp PERIOD    &trans        &trans
 &to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans  &kp ENTER     &kp SPACE     &mo 2         &trans        &trans
             >;
+
+            label = "layer_3";
         };
 
         layer_4 {
@@ -144,6 +149,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "layer_4";
         };
 
         layer_5 {
@@ -154,6 +160,8 @@
 &bootloader  &trans          &trans  &trans  &trans  &trans       &out OUT_BLE  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &trans
 &to 0        &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
             >;
+
+            label = "layer_5";
         };
     };
 };
