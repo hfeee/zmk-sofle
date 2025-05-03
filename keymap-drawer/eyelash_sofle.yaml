@@ -79,7 +79,7 @@ layers:
   - {t: Sft+\, s: Sft+|}
   - ':'
   - {t: Sft+-, s: Sft+_}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&new_macroai'
   - Ctl+Y
   - F2
   - {t: '$$mdi:backspace$$', type: backspace}
