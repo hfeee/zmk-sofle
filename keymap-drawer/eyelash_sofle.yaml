@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  layer_0:
+  LAYER_0:
   - $$mdi:apple-keyboard-caps$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -56,8 +56,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - layer_2
-  - layer_1
+  - LAYER_2
+  - LAYER_1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -65,7 +65,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-space$$
   - LEFT WIN
-  layer_1:
+  LAYER_1:
   - Ctl+W
   - Ctl+PgUp
   - Ctl+PgDn
@@ -118,19 +118,19 @@ layers:
   - '!'
   - '?'
   - {t: '=', s: +}
-  - {t: layer_5, h: toggle}
+  - {t: LAYER_5, h: toggle}
   - '&new_macrored'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: layer_3, h: toggle}
+  - {t: LAYER_3, h: toggle}
   - {type: held}
-  - {t: layer_4, h: toggle}
+  - {t: LAYER_4, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer_2:
+  LAYER_2:
   - $$mdi:arrow-up-bold$$
   - '6'
   - '7'
@@ -183,19 +183,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
-  - {t: layer_5, h: toggle}
+  - {t: LAYER_5, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: layer_3, h: toggle}
-  - {t: layer_4, h: toggle}
+  - {t: LAYER_3, h: toggle}
+  - {t: LAYER_4, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  layer_3:
+  LAYER_3:
   - $$mdi:keyboard-esc$$
   - '1'
   - '2'
@@ -248,7 +248,7 @@ layers:
   - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: layer_0, h: toggle}
+  - {t: LAYER_0, h: toggle}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:keyboard-space$$
@@ -257,10 +257,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - layer_2
+  - LAYER_2
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer_4:
+  LAYER_4:
   - Ctl+W
   - Ctl+PgUp
   - Ctl+PgDn
@@ -313,7 +313,7 @@ layers:
   - Sft+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&new_macrogomdelete'
-  - {t: layer_0, h: toggle}
+  - {t: LAYER_0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,7 @@ layers:
   - F4
   - Sft+F10
   - {t: '$$mdi:transfer$$', type: trans}
-  layer_5:
+  LAYER_5:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -378,7 +378,7 @@ layers:
   - RGB SPI
   - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: layer_0, h: toggle}
+  - {t: LAYER_0, h: toggle}
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
