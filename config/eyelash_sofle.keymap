@@ -85,7 +85,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        LAYER_0 {
             bindings = <
 &kp CAPSLOCK  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0        &kp ESC
 &kp TAB       &kp Q      &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P         &kp LEFT_BRACKET
@@ -96,10 +96,10 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
-            label = "layer_0";
+            label = "LAYER_0";
         };
 
-        layer_1 {
+        LAYER_1 {
             bindings = <
 &kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp COLON     &kp LS(MINUS)
 &new_macroai     &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(SINGLE_QUOTE)
@@ -110,10 +110,10 @@
 
             display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
-            label = "layer_1";
+            label = "LAYER_1";
         };
 
-        layer_2 {
+        LAYER_2 {
             bindings = <
 &kp UP_ARROW     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UP_ARROW     &trans   &trans  &trans  &trans  &kp LG(PRINTSCREEN)  &kp HOME
 &kp DOWN_ARROW   &kp Y         &kp U         &kp I         &kp O         &kp P           &kp DOWN_ARROW   &kp F5   &kp F6  &kp F7  &kp F8  &kp F9               &kp F12
@@ -123,10 +123,10 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "layer_2";
+            label = "LAYER_2";
         };
 
-        layer_3 {
+        LAYER_3 {
             bindings = <
 &kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
 &kp TAB           &kp Q         &kp W           &kp E         &kp R         &kp T           &trans  &kp Y         &kp U         &kp I         &kp O         &kp P         &trans
@@ -135,10 +135,10 @@
 &to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans  &kp ENTER     &kp SPACE     &mo 2         &trans        &trans
             >;
 
-            label = "layer_3";
+            label = "LAYER_3";
         };
 
-        layer_4 {
+        LAYER_4 {
             display-name = "layer4";
             bindings = <
 &kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp NUMBER_6        &trans              &kp X                &kp C                &trans  &new_macrogomdelete
@@ -149,10 +149,10 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "layer_4";
+            label = "LAYER_4";
         };
 
-        layer_5 {
+        LAYER_5 {
             bindings = <
 &sys_reset   &trans          &trans  &trans  &trans  &soft_off    &trans        &trans           &trans           &trans           &trans           &trans           &trans
 &trans       &trans          &trans  &trans  &trans  &trans       &trans        &trans           &bl BL_DEC       &bl BL_TOG       &bl BL_INC       &trans           &trans
@@ -161,7 +161,7 @@
 &to 0        &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
             >;
 
-            label = "layer_5";
+            label = "LAYER_5";
         };
     };
 };
