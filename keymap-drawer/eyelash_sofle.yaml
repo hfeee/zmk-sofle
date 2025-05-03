@@ -73,12 +73,12 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+Sft+T
   - $$mdi:arrow-up-bold$$
-  - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - X
-  - C
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&new_macrogomdelete'
+  - Sft+8
+  - Sft+9
+  - {t: 'Sft+]', s: 'Sft+}'}
+  - {t: Sft+\, s: Sft+|}
+  - ':'
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Y
   - F2
@@ -86,12 +86,12 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - Ctl+A
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
-  - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - {t: Sft+', s: Sft+"}
   - F5
   - Ctl+Z
   - Ctl+Sft+N
@@ -99,12 +99,12 @@ layers:
   - Ctl+V
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-left-bold$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
-  - Ctl+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '''', s: '"'}
   - '&new_macronomal'
   - A
   - Sft+F10
@@ -112,23 +112,23 @@ layers:
   - X
   - '&new_macroblue'
   - $$mdi:arrow-right-bold$$
-  - Sft+$$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-right-bold$$
-  - Sft+$$mdi:arrow-right-bold$$
+  - '#'
+  - '%'
+  - Sft+6
+  - '!'
+  - '?'
+  - {t: '=', s: +}
+  - {t: '5', h: toggle}
+  - '&new_macrored'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&new_macrogomdelete'
-  - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '3', h: toggle}
   - {type: held}
+  - {t: layer4, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - F4
-  - Sft+F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - $$mdi:arrow-up-bold$$
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '3', h: toggle}
-  - {t: layer1, h: toggle}
+  - {t: layer4, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -259,6 +259,71 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  layer4:
+  - Ctl+W
+  - Ctl+PgUp
+  - Ctl+PgDn
+  - Alt+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - Ctl+Sft+T
+  - $$mdi:arrow-up-bold$$
+  - '6'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - X
+  - C
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&new_macrogomdelete'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Y
+  - F2
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  - Ctl+A
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
+  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
+  - Ctl+Z
+  - Ctl+Sft+N
+  - Ctl+C
+  - Ctl+V
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&new_macronomal'
+  - A
+  - Sft+F10
+  - W
+  - X
+  - '&new_macroblue'
+  - $$mdi:arrow-right-bold$$
+  - Sft+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
+  - Sft+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&new_macrogomdelete'
+  - {t: LAYER0, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - F4
+  - Sft+F10
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
   - {t: '$$mdi:backup-restore$$', type: bootloader}
