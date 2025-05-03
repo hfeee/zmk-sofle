@@ -73,6 +73,13 @@
             bindings = <&kp LS(DELETE) &kp Y>;
             label = "NEW_MACROGOMDELETE";
         };
+
+        new_macroai: new_macroai {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp SPACE>;
+            label = "NEW_MACROAI";
+        };
     };
 
     keymap {
@@ -94,7 +101,7 @@
         layer_1 {
             bindings = <
 &kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp COLON     &kp LS(MINUS)
-&trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(SINGLE_QUOTE)
+&new_macroai     &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(SINGLE_QUOTE)
 &kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE         &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3       &kp NUMBER_4  &kp SINGLE_QUOTE
 &new_macronomal  &kp A            &kp LS(F10)        &kp W               &kp X                &new_macroblue    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION    &kp QUESTION  &kp EQUAL
 &to 5            &new_macrored    &trans             &to 3               &trans               &to 4             &kp ENTER        &trans            &trans            &trans                 &trans             &trans
