@@ -87,11 +87,11 @@
 
         LAYER_0 {
             bindings = <
-&kp CAPSLOCK  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0        &kp ESC
-&kp TAB       &kp Q      &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P         &kp LEFT_BRACKET
-&kp LSHIFT    &kp A      &kp S      &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J          &kp K       &kp L      &kp MINUS     &kp SEMICOLON
-&kp LCTRL     &kp Z      &kp X      &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp LEFT_ALT
-&kp C_MUTE    &kp SPACE  &kp SPACE  &mo 2   &mo 1   &kp ENTER    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp LEFT_WIN
+&kp ESCAPE  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8      &kp N9     &kp N0        &kp CAPSLOCK
+&kp TAB     &kp Q      &kp W      &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I       &kp O      &kp P         &kp LEFT_BRACKET
+&kp LSHIFT  &kp A      &kp S      &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J          &kp K       &kp L      &kp MINUS     &kp SEMICOLON
+&kp LCTRL   &kp Z      &kp X      &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp LEFT_ALT
+&kp C_MUTE  &kp SPACE  &kp SPACE  &mo 2   &mo 1   &kp ENTER    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp LEFT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -141,7 +141,7 @@
         LAYER_4 {
             display-name = "layer4";
             bindings = <
-&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp NUMBER_6        &trans              &kp X                &kp C                &trans  &new_macrogomdelete
+&kp LC(W)        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))     &kp UP_ARROW     &kp NUMBER_6        &kp X               &kp C                &trans               &trans  &new_macrogomdelete
 &trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
 &kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE         &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
 &new_macronomal  &kp A            &kp LS(F10)        &kp W               &kp X                &new_macroblue    &kp RIGHT_ARROW  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &new_macrogomdelete
