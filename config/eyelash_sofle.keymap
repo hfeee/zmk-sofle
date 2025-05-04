@@ -96,7 +96,7 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
-            label = "LAYER_0";
+            label = "LAYER0";
         };
 
         LAYER_1 {
@@ -108,9 +108,9 @@
 &to 5            &new_macrored    &trans             &to 3               &trans               &to 4             &kp ENTER        &trans            &trans            &trans                 &trans             &trans
             >;
 
-            display-name = "layer1";
+            display-name = "LAYER1";
             sensor-bindings = <&scroll_encoder>;
-            label = "LAYER_1";
+            label = "LAYER1";
         };
 
         LAYER_2 {
@@ -123,7 +123,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "LAYER_2";
+            label = "LAYER2";
         };
 
         LAYER_3 {
@@ -132,10 +132,10 @@
 &kp TAB           &kp Q         &kp W           &kp E         &kp R         &kp T           &kp DOWN_ARROW   &kp Y         &kp U         &kp I         &kp O         &kp P         &trans
 &kp LEFT_SHIFT    &kp A         &kp S           &kp D         &kp F         &kp G           &kp LEFT_ARROW   &kp H         &kp J         &kp K         &kp L         &trans        &trans
 &kp LEFT_CONTROL  &kp Z         &kp X           &kp C         &kp V         &kp B           &kp RIGHT_ARROW  &kp N         &kp M         &kp COMMA     &kp PERIOD    &trans        &trans
-&to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans           &kp ENTER     &kp SPACE     &mo 2         &trans        &trans
+&to 0             &kp UP_ARROW  &kp DOWN_ARROW  &kp SPACE     &kp LEFT_ALT  &kp ENTER       &trans           &kp ENTER     &kp SPACE     &trans        &trans        &trans
             >;
 
-            label = "LAYER_3";
+            label = "LAYER3";
         };
 
         LAYER_4 {
@@ -145,7 +145,7 @@
 &trans           &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)         &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
 &kp F5           &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE         &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
 &new_macronomal  &kp A            &kp LS(F10)        &kp W               &kp X                &new_macroblue    &kp RIGHT_ARROW  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &new_macrogomdelete
-&to 0            &trans           &trans             &trans              &trans               &trans            &trans           &kp ENTER           &kp SPACE           &kp F4               &kp LS(F4)           &trans
+&to 0            &trans           &trans             &trans              &trans               &trans            &trans           &kp ENTER           &kp SPACE           &kp F4               &kp LA(F4)           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -161,7 +161,7 @@
 &to 0        &studio_unlock  &trans  &trans  &trans  &trans       &trans        &trans           &trans           &trans           &trans           &trans
             >;
 
-            label = "LAYER_5";
+            label = "LAYER5";
         };
     };
 };
