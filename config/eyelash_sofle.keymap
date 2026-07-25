@@ -119,13 +119,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        layer_0 {
             bindings = <
-&kp ESC            &kp N1     &kp N2     &kp N3  &kp N4  &kp N5        &kp UP_ARROW     &kp N6      &kp N7         &kp N8      &kp N9     &kp N0        &kp BACKSPACE
+&kp ESC            &kp N1     &kp N2     &kp N3  &kp N4  &kp N5        &kp UP_ARROW     &kp N6      &kp N7         &kp N8      &kp N9     &kp N0        &kp CAPSLOCK
 &kp TAB            &kp Q      &kp W      &kp E   &kp R   &kp T         &kp DOWN_ARROW   &kp Y       &kp U          &kp I       &kp O      &kp P         &kp LEFT_BRACKET
 &kp RIGHT_SHIFT    &kp A      &kp S      &kp D   &kp F   &kp G         &kp LEFT_ARROW   &kp H       &kp J          &kp K       &kp L      &kp MINUS     &kp SEMICOLON
 &kp RIGHT_CONTROL  &kp Z      &kp X      &kp C   &kp V   &kp B         &kp RIGHT_ARROW  &kp N       &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp LEFT_ALT
-&kp C_MUTE         &kp SPACE  &kp SPACE  &mo 3   &mo 1   &kp RETURN    &kp ENTER        &kp RETURN  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp LEFT_GUI
+&kp C_MUTE         &kp SPACE  &kp SPACE  &mo 2   &mo 1   &kp RETURN    &kp ENTER        &kp RETURN  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp LEFT_GUI
             >;
 
             sensor-bindings =
@@ -138,8 +138,8 @@
         layer_1 {
             bindings = <
 &kp LC(W)          &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))         &kp UP_ARROW     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp COLON     &kp LS(MINUS)
-&new_macroclear    &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(A)             &kp DOWN_ARROW   &kp N5            &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(APOSTROPHE)
-&kp F5             &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(LA(V))        &kp SPACE             &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3       &kp NUMBER_4  &kp APOSTROPHE
+&new_macroclear    &kp LC(Y)        &kp F2             &kp BACKSPACE       &kp DELETE           &kp LC(LA(V))         &kp DOWN_ARROW   &kp N5            &kp NUMBER_6      &kp NUMBER_7           &kp NUMBER_8       &kp NUMBER_9  &kp LS(APOSTROPHE)
+&kp F5             &kp LC(Z)        &kp LC(LS(N))      &kp LC(C)           &kp LC(V)            &kp SPACE             &kp LEFT_ARROW   &kp NUMBER_0      &kp NUMBER_1      &kp NUMBER_2           &kp NUMBER_3       &kp NUMBER_4  &kp APOSTROPHE
 &new_macroneebiew  &kp T            &new_macromenu     &kp X               &new_macroblue       &kp LS(DOWN_ARROW)    &kp RIGHT_ARROW  &kp HASH          &kp PERCENT       &kp LS(NUMBER_6)       &kp EXCLAMATION    &kp QUESTION  &kp EQUAL
 &to 0              &trans           &trans             &to 3               &trans               &to 4                 &kp RETURN       &trans            &trans            &trans                 &trans             &trans
             >;
@@ -178,8 +178,8 @@
         layer_4 {
             bindings = <
 &kp LC(W)        &kp PAGE_UP  &kp PAGE_DOWN   &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))         &kp UP_ARROW     &kp NUMBER_6        &kp X               &kp C                &trans               &trans  &trans
-&new_macroclear  &kp LC(Y)    &kp F2          &kp BACKSPACE       &kp DELETE           &kp LC(A)             &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
-&kp F5           &kp LC(Z)    &kp LC(LS(N))   &kp C               &kp LC(LA(V))        &kp SPACE             &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
+&new_macroclear  &kp LC(Y)    &kp F2          &kp BACKSPACE       &kp DELETE           &kp LC(LA(V))         &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
+&kp F5           &kp LC(Z)    &kp LC(LS(N))   &kp C               &kp LC(V)            &kp SPACE             &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
 &trans           &kp T        &new_macromenu  &kp X               &new_macroblue       &kp LS(DOWN_ARROW)    &kp RIGHT_ARROW  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &new_macrodelete
 &to 0            &to 5        &trans          &trans              &trans               &kp ENTER             &trans           &kp ENTER           &kp SPACE           &kp F4               &kp LA(F4)           &trans
             >;
