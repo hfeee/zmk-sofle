@@ -79,7 +79,7 @@ layers:
   - {t: Sft+\, s: Sft+|}
   - ':'
   - {t: Sft+-, s: Sft+_}
-  - '&new_macroclear'
+  - '&new_macronotrobot'
   - Ctl+Y
   - F2
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -97,7 +97,7 @@ layers:
   - Ctl+Sft+N
   - Ctl+C
   - Ctl+V
-  - $$mdi:keyboard-space$$
+  - HOME
   - $$mdi:arrow-left-bold$$
   - '0'
   - '1'
@@ -274,7 +274,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&new_macroclear'
+  - '&new_macronotrobot'
   - Ctl+Y
   - F2
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -292,7 +292,7 @@ layers:
   - Ctl+Sft+N
   - C
   - Ctl+V
-  - $$mdi:keyboard-space$$
+  - HOME
   - $$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
