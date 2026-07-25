@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - LAYER3
+  - LAYER2
   - LAYER1
   - RETURN
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -84,7 +84,7 @@ layers:
   - F2
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - Ctl+A
+  - Ctl+Alt+V
   - $$mdi:arrow-down-bold$$
   - {t: '5', s: '%'}
   - '6'
@@ -96,7 +96,7 @@ layers:
   - Ctl+Z
   - Ctl+Sft+N
   - Ctl+C
-  - Ctl+Alt+V
+  - Ctl+V
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - '0'
@@ -186,7 +186,7 @@ layers:
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: LAYER3, h: toggle}
   - {t: LAYER4, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -251,7 +251,7 @@ layers:
   - {t: LAYER0, h: toggle}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -279,7 +279,7 @@ layers:
   - F2
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - Ctl+A
+  - Ctl+Alt+V
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
@@ -291,7 +291,7 @@ layers:
   - Ctl+Z
   - Ctl+Sft+N
   - C
-  - Ctl+Alt+V
+  - Ctl+V
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-left-bold$$
