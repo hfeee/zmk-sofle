@@ -68,7 +68,7 @@
         new_macromenu: new_macromenu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(F10)>, <&macro_wait_time 1200>, <&kp W>;
+            bindings = <&kp LS(F10) &kp W>, <&macro_wait_time 300>;
 
             label = "NEW_MACROMENU";
         };
