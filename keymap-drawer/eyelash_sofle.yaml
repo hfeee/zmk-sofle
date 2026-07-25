@@ -107,7 +107,7 @@ layers:
   - {t: '''', s: '"'}
   - '&new_macroneebiew'
   - T
-  - '&new_macromenu'
+  - Sft+F10
   - X
   - '&new_macroblue'
   - Sft+$$mdi:arrow-down-bold$$
@@ -302,7 +302,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - T
-  - '&new_macromenu'
+  - Sft+F10
   - X
   - '&new_macroblue'
   - Sft+$$mdi:arrow-down-bold$$
