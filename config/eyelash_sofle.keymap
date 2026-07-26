@@ -172,14 +172,16 @@
             >;
 
             display-name = "LAYER3";
-            sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&rsr_trans>;
         };
 
         layer_4 {
             bindings = <
 &kp LC(W)           &kp PAGE_UP  &kp PAGE_DOWN  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(T))         &kp UP_ARROW     &kp NUMBER_6        &kp X               &kp C                &trans               &trans  &trans
 &new_macronotrobot  &kp LC(Y)    &kp F2         &kp BACKSPACE       &kp DELETE           &kp LC(LA(V))         &kp DOWN_ARROW   &trans              &kp PAGE_UP         &kp PAGE_DOWN        &trans               &trans  &trans
-&kp F5              &kp LC(Z)    &kp LC(LS(N))  &kp C               &kp LC(V)            &kp HOME              &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
+&kp F5              &kp LC(Z)    &kp LC(LS(N))  &kp LC(C)           &kp LC(V)            &kp HOME              &kp LEFT_ARROW   &kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp RIGHT_ARROW      &kp LC(RIGHT_ARROW)  &trans  &trans
 &trans              &kp T        &kp LS(F10)    &kp X               &new_macroblue       &kp LS(DOWN_ARROW)    &kp RIGHT_ARROW  &kp LS(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &new_macrodelete
 &to 0               &to 5        &trans         &trans              &trans               &kp ENTER             &trans           &kp ENTER           &kp SPACE           &kp F4               &kp LA(F4)           &trans
             >;
