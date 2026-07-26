@@ -290,7 +290,7 @@ layers:
   - F5
   - Ctl+Z
   - Ctl+Sft+N
-  - C
+  - Ctl+C
   - Ctl+V
   - HOME
   - $$mdi:arrow-left-bold$$
