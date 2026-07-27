@@ -111,7 +111,7 @@
         new_macronotrobot: new_macronotrobot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp TAB &kp ENTER>;
+            bindings = <&kp TAB &kp SPACE>;
             label = "NEW_MACRONOTROBOT";
         };
     };
